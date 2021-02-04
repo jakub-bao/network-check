@@ -1,4 +1,4 @@
-import { NetworkCheck } from '.'
+import NetworkCheck from '../index'
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {

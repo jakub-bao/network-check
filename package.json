@@ -1,6 +1,6 @@
 {
   "name": "@dhis2-app/network-check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A react component for DHIS2 custom apps which monitors network connection to DHIS2 server",
   "author": "jakub-bao",
   "license": "MIT",
