@@ -1,6 +1,7 @@
-/// <reference types="react" />
+import * as React from 'react';
 interface Props {
-    text: string;
+    intervalMs: number;
+    getData: (url: string) => Promise<any>;
 }
-export declare const NetworkCheck: ({ text }: Props) => JSX.Element;
-export {};
+declare const _default: React.ElementType<Props>;
+export default _default;

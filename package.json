@@ -1,6 +1,6 @@
 {
-  "name": "network-check",
-  "version": "1.0.0",
+  "name": "@dhis2-app/network-check",
+  "version": "1.0.3",
   "description": "A react component for DHIS2 custom apps which monitors network connection to DHIS2 server",
   "author": "jakub-bao",
   "license": "MIT",
@@ -24,7 +24,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^17.0.1",
+    "notistack": "^1.0.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -59,5 +60,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "notistack": "^1.0.3"
+  }
 }
